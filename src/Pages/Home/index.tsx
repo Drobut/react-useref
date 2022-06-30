@@ -7,20 +7,6 @@ export default function Home() {
     navigate("/explication");
   }
 
-<<<<<<< HEAD
-  return (
-    <>
-      <h1>Teste</h1>
-      <div className="page">
-        <div className="Icon"></div>
-        <h1>React useRef</h1>
-        <button className="btn1" onClick={handleClick}>
-          Next
-        </button>
-      </div>
-    </>
-  );
-=======
     return(
         <>  
             <div className='page'>
@@ -35,5 +21,4 @@ export default function Home() {
         </>
     )
     
->>>>>>> master
 }
