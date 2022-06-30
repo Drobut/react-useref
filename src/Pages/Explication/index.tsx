@@ -14,11 +14,18 @@ export default function Explication() {
     return(
       <>
         <div className='page'>
-        <h1>Explication</h1>]
+        <h1 className='ex' >Explication</h1>
         <div>
             <Typography variant="body1" sx={{
               color: '#fff',
-              paddingLeft: '16px',
+              marginLeft: '100px',
+              paddingTop: '20px',
+              justifyContent: "center",
+              alignItems: "center",
+              display: "flex",
+              textAlign:'center',
+              width: '90vw',
+              fontSize: '20px'
             }}>
               A partir da versão 16.8 do React é possível usar os Hooks como uma nova maneira de escrever componentes e reutilizar o código entre eles. Um desses hooks é o useRef. O useRef atua como uma função que retorna um objeto ref e recebe um argumento que inicializa a propriedade .current desse objeto.<br/>
 

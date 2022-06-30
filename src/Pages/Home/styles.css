@@ -44,7 +44,7 @@ h1 {
     display: flex;
     justify-content: center;    
     align-items: center;
-    margin-top: 20px;
+    margin-top: 120px;
     animation-name: icon-animation;
     animation: icon-animation 150s linear infinite normal;
     margin-bottom: 15px;

@@ -1,5 +1,13 @@
 p{
-  color: #fff
+  color: #fff;
+  /* justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 90vw; */
+}
+
+.ex {
+  margin-top: 50px;
 }
 
 .page {
