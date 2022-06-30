@@ -1,20 +1,10 @@
+p{
+  color: #fff
+}
+
 .page {
     width: 100vw;
     height: 100vh;
-  }
-  
-  .Icon {
-      background-image: url(../../images/React-icon.png);
-      width: 100vw;
-      height: 300px;
-      background-size: 150px;
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      justify-content: center;    
-      align-items: center;
-      animation-name: icon-animation;
-      animation: icon-animation 150s linear infinite normal;
   }
   
   @keyframes icon-animation {
